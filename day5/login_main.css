@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding:0;
+    color: white;
+    font-family: Sylfaen;
+}
+.box{
+    background-color: #4d4d4d;
+    width: 500px;
+    height: 400px;
+    border-radius: 5px;
+    margin: 100px auto 500px;
+    overflow: hidden;
+}
+.wrap{
+    margin:50px auto;
+    width: 350px;
+}
+.tag,#input1,#input2{
+    display: block;
+}
+.tag{
+    padding-top: 30px;
+}
+#input1,#input2 {
+    width: 350px;
+    margin-top: 10px;
+}
+#remenberName{
+margin-top: 40px;
+}
+#button{
+    margin-left: 40px;
+    width: 100px;
+    color: rgba(35, 16, 10, 0.91);
+}

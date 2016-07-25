@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    background-color: #f7f7f7;
+}
+
+li {
+    list-style: none;
+}
+
+.wrap {
+    min-width: 800px;
+    width: 100%;
+    min-height: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.title {
+    width: 100%;
+    height: 60px;
+    background-color: #3c82c0;
+    font-family: 华文彩云;
+    font-size: 35px;
+    line-height: 60px;
+    padding-left: 20%;
+    font-weight: bolder;
+    color: white;
+}
+
+.list, .detail {
+    border: 2px solid #c0c0c0;
+    border-radius: 10px;
+    min-width: 200px;
+    min-height: 400px;
+    margin-top: 50px;
+    font-size: 20px;
+    margin-bottom: 100px;
+}
+
+.list {
+    width: 25%;
+    float: left;
+    margin-left: 10%;
+}
+
+.list .list_todo {
+    font-weight: bold;
+    font-family: 华文行楷;
+    padding-left: 15%;
+    font-size: 30px;
+    height: 40px;
+    color: #808080;
+    line-height: 40px;
+    border-bottom: 1px solid #c0c0c0;
+}
+
+.list li, .detail label {
+    font-weight: bold;
+    font-family: 楷体;
+}
+
+.list li, .list_to, .detail label {
+    color: #808080;
+}
+
+li .list_time {
+    width: 28%;
+    min-width: 60px;
+    float: left;
+}
+
+.list_time p {
+    float: right;
+}
+
+li .list_title {
+    width: 67%;
+    min-width: 140px;
+}
+
+.list_time, .list_title {
+    height: 30px;
+    overflow: hidden;
+    line-height: 30px;
+}
+
+.list ul li {
+    height: 30px;
+    border-bottom: 0.5px solid #c0c0c0;
+    cursor: pointer;
+}
+
+.detail {
+    width: 45%;
+    float: right;
+    margin-right: 10%;
+}
+
+.detail label, #btn_save, #btn_clear {
+    margin-left: 16%;
+    display: inline-block;
+}
+
+#detail_labcon {
+    vertical-align: top;
+}
+
+.detail textarea {
+    margin-top: 30px;
+}
+
+.detail label, textarea {
+    margin-top: 30px;
+}
+
+.detail input, textarea {
+    width: 50%;
+    border-radius: 3px;
+    background-color: inherit;
+    border:1px solid #c0c0c0;
+}
+.detail input{
+    height: 30px;
+}
+#btn_save, #btn_clear {
+    width: 20%;
+    height: 40px;
+    margin-top: 25px;
+    font-family: "Courier New";
+    font-size: 85%;
+    color: #6f6f6f;
+    font-weight: 900;
+    border: 1px solid #3c82c0;
+    cursor: pointer;
+}
+
+#btn_save {
+    margin-left: 22%
+}
+
+@media screen and (max-width: 500px) {
+    .title {
+        padding: 0;
+        text-align: center;
+    }
+
+    .title li {
+        width: 40%;
+        padding-left: 30%;
+    }
+
+    .wrap {
+        argin: 0 auto;
+        min-width: 0;
+    }
+
+    .list, .detail {
+        margin: 20px auto;
+        width: 90%;
+        float: none;
+    }
+
+    .list .list_todo {
+        padding-left: 0;
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
